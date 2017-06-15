@@ -1,25 +1,24 @@
 LiAutoRepairVersionNum = 1
-AddonMsgPrefix = "LiARVer"
+AddonMsgPrefix = "LiARVersion"
 
 RegisterAddonMessagePrefix(AddonMsgPrefix)
 UpdateNotificationDisplayed = false
 LiAutoRepair = false
 
-function LiARGetDurability()
-	local InventorySlots =
-	{
-		"HeadSlot",
-		"ShoulderSlot",
-		"ChestSlot",
-		"WristSlot",
-		"HandsSlot",
-		"WaistSlot",
-		"LegsSlot",
-		"FeetSlot",
-		"MainHandSlot",
-		"SecondaryHandSlot"
-	}
+InventorySlots = {
+	"HeadSlot",
+	"ShoulderSlot",
+	"ChestSlot",
+	"WristSlot",
+	"HandsSlot",
+	"WaistSlot",
+	"LegsSlot",
+	"FeetSlot",
+	"MainHandSlot",
+	"SecondaryHandSlot"
+}
 
+function LiARGetDurability()
 	DCur, DMax = 0, 0
 	for _, v in pairs(InventorySlots) do
 		iCur, iMax = GetInventoryItemDurability(GetInventorySlotInfo(v));
