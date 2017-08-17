@@ -5,7 +5,7 @@ Li-AutoRepair is a World of Warcraft addon that repairs your gear automatically 
 First it will attempt to repair using guild funds, if that doesn't work, it will repair using personal funds.
 If it was successful it will tell you what your calculated durability was and how much gold it costed you.
 
-That's it! There is nothing to configure. You install the addon and it just works as described above!
+That's it! There is nothing to configure, just install it, and it works the same on any character you play on.
 
 ## GitHub
 
