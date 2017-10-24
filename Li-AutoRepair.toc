@@ -1,7 +1,7 @@
 ## Interface: 70300
 ## Title: LiAutoRepair
 ## Notes: Repairs all equipment when a repair merchant window is opened.
-## Author: Pandanda-Arthas
+## Author: Darkado-Arthas
 ## Version: 1
 
 Li-AutoRepair.xml
