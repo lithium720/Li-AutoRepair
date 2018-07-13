@@ -1,7 +1,7 @@
-LiAutoRepairVersionNum = 1
+LiAutoRepairVersionNum = 2
 AddonMsgPrefix = "LiARVersion"
 
-RegisterAddonMessagePrefix(AddonMsgPrefix)
+C_ChatInfo.RegisterAddonMessagePrefix(AddonMsgPrefix)
 UpdateNotificationDisplayed = false
 LiAutoRepair = false
 
@@ -31,9 +31,9 @@ function LiARGetDurability()
 end
 
 function SendAddonVerMessages()
-	SendAddonMessage(AddonMsgPrefix, LiAutoRepairVersionNum, "GUILD")
-	SendAddonMessage(AddonMsgPrefix, LiAutoRepairVersionNum, "PARTY")
-	SendAddonMessage(AddonMsgPrefix, LiAutoRepairVersionNum, "RAID")
+	C_ChatInfo.SendAddonMessage(AddonMsgPrefix, LiAutoRepairVersionNum, "GUILD")
+	C_ChatInfo.SendAddonMessage(AddonMsgPrefix, LiAutoRepairVersionNum, "PARTY")
+	C_ChatInfo.SendAddonMessage(AddonMsgPrefix, LiAutoRepairVersionNum, "RAID")
 end
 
 function LiAutoRepairInit()
