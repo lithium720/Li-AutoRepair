@@ -1,8 +1,8 @@
-## Interface: 80100
+## Interface: 80200
 ## Title: LiAutoRepair
 ## Notes: Repairs all equipment when a repair merchant window is opened.
 ## Author: Darkado-Arthas
-## Version: 3
+## Version: 4
 
 Li-AutoRepair.xml
 Li-AutoRepair.lua
