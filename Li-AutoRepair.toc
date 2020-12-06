@@ -1,4 +1,4 @@
-## Interface: 80200
+## Interface: 90002
 ## Title: LiAutoRepair
 ## Notes: Repairs all equipment when a repair merchant window is opened.
 ## Author: Darkado-Arthas
