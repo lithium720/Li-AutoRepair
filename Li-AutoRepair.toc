@@ -1,8 +1,8 @@
-## Interface: 100000
+## Interface: 100002
 ## Title: LiAutoRepair
 ## Notes: Repairs all equipment when a repair merchant window is opened.
 ## Author: Darkado-Arthas
-## Version: 6
+## Version: 7
 
 Li-AutoRepair.xml
 Li-AutoRepair.lua
