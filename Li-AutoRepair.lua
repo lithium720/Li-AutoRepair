@@ -1,4 +1,4 @@
-LiAutoRepairVersionNum = 9
+LiAutoRepairVersionNum = 10
 AddonMsgPrefix = "LiARVersion"
 
 C_ChatInfo.RegisterAddonMessagePrefix(AddonMsgPrefix)
